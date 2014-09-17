@@ -1,0 +1,214 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:background="@android:color/transparent">
+        
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center_vertical"
+	    android:orientation="horizontal">
+		<ImageView 
+		    android:layout_width="30dp"
+		    android:layout_height="30dp"
+		    android:layout_margin="8dp"
+		    />
+        <TextView
+            android:id="@+id/textView_d_ClientName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="Loading..."
+            android:textColor="#6e6e6e"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+	</LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_gravity="center_vertical"
+        >
+
+        <ImageView
+            android:id="@+id/dial_image"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="8dp"
+   />
+
+        <TextView
+            android:id="@+id/textView_d_contact"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#6e6e6e"
+            android:layout_gravity="center_vertical"
+            android:text="Loading..."
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+</LinearLayout>
+<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:gravity="center_vertical"
+>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="8dp"
+   />
+        <TextView
+            android:id="@+id/textView_d_SourceAdd"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#6e6e6e"
+            android:text="Loading..."
+            android:gravity="center_vertical"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+</LinearLayout>
+	 <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:gravity="center_vertical"
+>
+
+        <ImageView
+            android:id="@+id/dial_image_1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="8dp"
+ />
+
+        <TextView
+            android:id="@+id/textView_d_sourceTime"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#6e6e6e"
+            android:text="Loading..."
+            android:singleLine="true"
+		    android:ellipsize="marquee" 
+		    android:marqueeRepeatLimit="marquee_forever"
+		    android:scrollHorizontally="true" 
+		    android:focusable="true" 
+		    android:focusableInTouchMode="true" 
+		    android:freezesText="true"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+</LinearLayout>
+ <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:gravity="center_vertical"
+     >
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="8dp"
+            />
+        <TextView
+            android:id="@+id/textView_d_DesitnationAdd"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Loading..."
+            android:textColor="#6e6e6e"
+            android:gravity="center_vertical"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+</LinearLayout>
+     <LinearLayout
+         android:id="@+id/linear_dialog"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:gravity="center_vertical"
+ >
+
+      <ImageView 
+          android:layout_width="30dp"
+          android:layout_height="30dp"
+          android:layout_margin="8dp"/>
+         
+        <TextView
+            android:id="@+id/textView_d_DestinationTime"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Loading..."
+            android:singleLine="true"
+		    android:ellipsize="marquee" 
+		    android:marqueeRepeatLimit="marquee_forever"
+		    android:scrollHorizontally="true" 
+		    android:focusable="true" 
+		    android:textColor="#6e6e6e"
+		    android:focusableInTouchMode="true" 
+		    android:freezesText="true"
+		    android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+     </LinearLayout>
+      <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:gravity="center_vertical"
+          >
+
+      <ImageView 
+          android:layout_width="30dp"
+          android:layout_height="30dp"
+          android:layout_margin="8dp"/>
+     <TextView
+            android:id="@+id/textView_d_Remarks"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#6e6e6e"
+            android:text="Loading..."
+            android:gravity="center_vertical"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+     </LinearLayout>
+  <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:gravity="center_vertical"
+          >
+
+      <ImageView 
+          android:layout_width="30dp"
+          android:layout_height="30dp"
+          android:layout_margin="8dp"/>
+     <TextView
+            android:id="@+id/textView_d_landmark"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#6e6e6e"
+            android:text="Loading..."
+            android:gravity="center_vertical"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+     </LinearLayout>
+      
+      <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:gravity="center_horizontal"
+         android:layout_margin="5dp"
+          >
+<Button 
+       android:id="@+id/Button_d_Close"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Close"/>
+  <Button 
+       android:id="@+id/Button_d_tour"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Go to Tour"/>
+     </LinearLayout>
+   
+    </LinearLayout>
+
+</ScrollView>

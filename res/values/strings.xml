@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tracker</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="login">L O G I N</string>
+    <string name="gotowebsite">G O   T O   W E B S I T E</string>
+    <string name="contact">C O N T A C T</string>
+    <string name="powedby">Powered by Prevoir Infotech</string>
+    <string name="booking">B o o k i n g</string>
+    <string name="greaterthn">&gt;</string>
+    <string name="mylocation">M y   L o c a t i o n</string>
+    <string name="completedtour">C o m p l e t e d    T o u r</string>
+    <string name="help">H e l p</string>
+
+</resources>

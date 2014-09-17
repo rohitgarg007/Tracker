@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bookingitemlistviewroot"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+ 	android:background="@android:color/transparent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/textView_bookinglistitem_ClientName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"            
+            android:gravity="left"
+            android:layout_weight="1"
+            android:textColor="#fff"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/textView_bookinglistitem_Clientphoneno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:layout_marginRight="5dp"
+            android:textColor="#fff"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView_bookinglistitem_Time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#fff"
+        android:text="TextView" />
+<TextView
+        android:id="@+id/textView_bookinglistitem_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#fff"
+        android:text="TextView" />
+
+<ImageView
+    android:id="@+id/imageView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:src="@drawable/bookinglistitem_seperater" />
+    
+</LinearLayout>
